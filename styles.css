@@ -1,5 +1,14 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+h1:hover{
+    color: salmon;
+}
+
 body {
-    background:pink;
+    background:lightgray;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -7,9 +16,26 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
+    background: lightsteelblue;
 }
+
 
 .assignment img {
     max-width:200px;
-    padding-right:10px;
+    margin: 20px;
+    border: 2px solid black;
 }
+
+.assignment img:hover {
+    border: 2px solid salmon;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: salmon;
+}
+
